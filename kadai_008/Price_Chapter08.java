@@ -5,7 +5,7 @@ public class Price_Chapter08 {
 	public static void main(String[] args) {
 		
 		int userAge = 30; //年代
-		int serviceCost; //料金
+		int serviceCost= 3000; //料金
 		
 	serviceCost = switch (userAge) {
 	    case 10  -> 1000;
